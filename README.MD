@@ -10,6 +10,7 @@ Todo runs in any browser and stores all data in localstorage
 
 ### Todo options 
 ````
+Will ad them later
 ````
 
 ### Todo code
