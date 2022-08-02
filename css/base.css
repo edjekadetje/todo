@@ -1,0 +1,193 @@
+body {
+    color: black;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.content {
+    font-family: "Courier New";
+    font-size: 16px;
+    margin-top: 68px;
+}
+
+input, textarea, button {
+    font-family: "Courier New";
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100%;
+}
+
+.header {
+    font-family: "Courier New";
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 98%;
+    height: 40px;
+    padding: 1% 1% 0 1%;
+    background: black;
+}
+
+.headerButton {
+    float: right;
+    margin-right: 20px;
+}
+
+.addBoxPlus {
+    color: white;
+    font-size: 48px;
+    margin-top: -12px;
+    font-weight: bolder;
+}
+
+.headerButton.button {
+}
+
+.headerName {
+    float: left;
+    color: white;
+    font-size: 2em;
+    margin-top: -4px;
+}
+
+.settingsDots {
+    font-size: 32px;
+    color: white;
+    letter-spacing: -8px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.mainBoxSubContainer {
+}
+
+.mainBox {
+    width: 300px;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 4px;
+    position: fixed;
+    top: 60px;
+    background: white;
+    color: black;
+}
+
+.mainBoxSub {
+    width: 300px;
+    border: black 1px solid;
+    margin: 4px;
+    padding: 4px;
+    float: left;
+}
+
+.mainBoxTitle {
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.mainBoxMenuSub {
+    width: 10%;
+    float: right;
+    letter-spacing: -4px;
+}
+
+.mainBoxTitleInput {
+    width: calc(100% - 6px);
+}
+
+.mainBoxTitleInputSub {
+    width: calc(86% - 6px);
+}
+
+.mainBoxText {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 4px;
+}
+
+.mainBoxTextInput {
+    width: calc(100% - 8px);
+}
+
+.mainBoxSave {
+    text-align: right;
+}
+
+.settingsPage {
+    background-color: white;
+    border: 3px black double;
+    color: black;
+    position: absolute;
+    width: 320px;
+    top: 58px;
+    padding: 4px;
+}
+
+.inputLine {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.subMenu {
+    border: 1px solid black;
+    background: white;
+    color: black;
+    width: 196px;
+    position: fixed;
+    left: 300px;
+}
+
+.subMenuLine {
+    padding: 4px 4px 0 4px;
+    margin-bottom: 4px;
+}
+
+.subMenuItem {
+    text-decoration: underline;
+}
+
+.subMenuItem:hover {
+    color: blue;
+}
+
+.colorBox {
+    height: 21px;
+    width: 25px;
+    float: left;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: #8FE08F;
+}
+
+.pink {
+    background: pink;
+}
+
+.purple {
+    background: #E36BE3;
+}
+
+.blue {
+    background: #95CCFB;
+}
+
+.gray {
+    background: gray;
+}

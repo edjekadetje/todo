@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- main empty box -->
+<div class="header" id="header">
+    <div class="headerName">Todo</div>
+    <div class="headerButton">
+        <div id="settings" class="pointer settingsDots" title="Settings">...</div>
+    </div>
+    <div class="headerButton">
+        <div id="showAllBoxes" class="addBoxPlus pointer" title="Show all boxes and subs">=</div>
+    </div>
+    <div class="headerButton">
+        <div id="addBoxPlus" class="addBoxPlus pointer" title="Add new box">+</div>
+    </div>
+</div>
+
+<div class="content" id="content">
+
+</div>
+
+<div class="settingsPage" id="settingsPage" style="display: none;">
+    <h1 style="text-align: center">Todo Settings</h1>
+    <div class="inputLine">
+        <label for="boxesPerRow">Boxes per row</label>
+        <input type="number" id="boxesPerRow" name="boxesPerRow" style="width: 40px">
+    </div>
+    <div class="inputLine">
+        <label for="frontColor">Front color</label>
+        <input type="color" id="frontColor" name="frontColor">
+    </div>
+    <div class="inputLine">
+        <label for="backColor">Background color</label>
+        <input type="color" id="backColor" name="backColor">
+    </div>
+    <div class="inputLine" style="white-space: nowrap">
+        <h5 style="margin-bottom: 2px">Keep boxes:</h5>
+        <input type="radio" name="sameHeight" id="sameHeight1" name="sameHeight" value="1" class="sameHeight">
+        <label for="sameHeight1">Same height</label><br>
+        <input type="radio" name="sameHeight" id="sameHeight2" name="sameHeight" value="2" class="sameHeight">
+        <label for="sameHeight2">Minimum height</label><br>
+        <input type="radio" name="sameHeight" id="sameHeight3" name="sameHeight" value="3" class="sameHeight">
+        <label for="sameHeight3">Flexible height</label>
+    </div>
+    <div class="inputLine">
+        <button id="saveSettings" style="float: right;">Save settings</button>
+    </div>
+    <div class="inputLine" style="margin-top: 20px;">
+        <label for="exportBoxes">All boxes will be exported to text file<br></label>
+        <button id="exportBoxes" style="float: right;">Export boxes</button>
+    </div>
+    <div class="inputLine">
+        <label for="exportBoxes">Import boxes from text file<br></label>
+        <button id="importBoxes" style="float: right;">Import boxes</button>
+    </div>
+
+</div>
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>
