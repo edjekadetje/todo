@@ -1,4 +1,5 @@
 ## ToDo
+##Work in progress, ful script will be added August 12, 2022
 
 ````
 Todo is a easy todo list script
